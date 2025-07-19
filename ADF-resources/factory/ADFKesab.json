@@ -1,0 +1,9 @@
+{
+	"name": "ADFKesab",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a21e952b-64ce-4af6-8568-1fdab80091c2",
+		"tenantId": "eea2ace8-bcc4-49ae-945e-8ccd5c89c3b5"
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"name": "CosmosDbNoSqlContainer1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CosmosDbNoSql1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {
+			"type": "object",
+			"properties": {
+				"transaction_id": {
+					"type": "integer"
+				},
+				"transactional_date": {
+					"type": "string"
+				},
+				"product_id": {
+					"type": "string"
+				},
+				"customer_id": {
+					"type": "integer"
+				},
+				"payment": {
+					"type": "string"
+				},
+				"credit_card": {
+					"type": "integer"
+				},
+				"loyalty_card": {
+					"type": "string"
+				},
+				"cost": {
+					"type": "number"
+				},
+				"quantity": {
+					"type": "integer"
+				},
+				"price": {
+					"type": "number"
+				},
+				"": {
+					"type": "string"
+				}
+			}
+		},
+		"typeProperties": {
+			"collectionName": "containerforadf"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
