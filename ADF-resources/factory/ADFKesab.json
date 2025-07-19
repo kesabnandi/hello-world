@@ -1,5 +1,13 @@
 {
 	"name": "ADFKesab",
+	"properties": {
+		"globalParameters": {
+			"Owner": {
+				"type": "string",
+				"value": "Kesab Nandi"
+			}
+		}
+	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
